@@ -1,0 +1,84 @@
+    body{font-family: arial;
+    background-color:lightgreen;
+    transition: all 500ms;
+    }
+   
+
+    .eder{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ederr{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.corpo{
+    margin-top: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pisello{
+    height: 100px;
+    width: 400px;
+    font-size: 2.5em;
+    font-weight: bold;
+    border-radius: 50px;
+    border: solid white;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 20px white;
+    color: white;
+}
+
+.vedii{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+
+    .vodoo{
+        height: 60px;
+        width: 120px;
+        border-radius: 20px;
+        border: solid white;
+        background-color: transparent;
+        box-shadow: inset 0px 0px 20px white;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    #cacchine{
+display: inline-block;
+opacity: 0;
+margin-right: 10px;
+    }
+
+    .volare{
+                animation: woo 1s forwards;
+
+    }
+
+    @keyframes woo{
+
+        0%{transform: translateY(0)  ;
+        }
+
+        50%{
+           
+        opacity: 1;}
+
+        100%{ transform: translateY(-80px)  scale(5);
+        opacity: 0;
+        }
+    }
